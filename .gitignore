@@ -9,6 +9,7 @@
 *.suo
 *.user
 *.sln.docstates
+*.dll
 
 # Build results
 [Dd]ebug/
@@ -43,6 +44,7 @@ ipch/
 # Visual Studio profiler
 *.psess
 *.vsp
+*.vs/
 
 # Installshield output folder
 [Ee]xpress

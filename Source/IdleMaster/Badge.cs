@@ -79,6 +79,7 @@ namespace IdleMaster
         {
             RemainingCard = string.IsNullOrWhiteSpace(remaining) ? 0 : int.Parse(remaining);
             HoursPlayed = string.IsNullOrWhiteSpace(hours) ? 0 : double.Parse(hours, new NumberFormatInfo());
+            RemainingCard += 1;
         }
 
         public override bool Equals(object obj)

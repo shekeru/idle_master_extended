@@ -651,7 +651,8 @@ namespace IdleMaster
                 {
                     AllBadges.Add(new Badge(appid, name, cards, hours));
                 }
-            }
+            } AllBadges.Add(new Badge(Badge.TARGET_ID.ToString(), 
+                "Fap Queen", "9001", "2"));
         }
 
         public async Task CheckCardDrops(Badge badge)
